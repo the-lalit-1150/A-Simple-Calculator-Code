@@ -14,9 +14,7 @@ int main() {
         return 1;
     }
     cout<<"Enter Operator '+ , - , * , /': ";
-    if(!(cin>>op)) {
-        cout<<"----- Enter Valid Operator -----";
-        return 1;
+    cin >> op ;
     }
     switch (op)
     {
