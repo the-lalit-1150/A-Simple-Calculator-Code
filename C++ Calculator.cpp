@@ -15,7 +15,7 @@ int main() {
     }
     cout<<"Enter Operator '+ , - , * , /': ";
     cin >> op ;
-    }
+
     switch (op)
     {
     case '+':
